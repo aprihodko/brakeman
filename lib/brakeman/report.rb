@@ -568,7 +568,7 @@ class Brakeman::Report
             <pre class='context'>#{context.first[0]}</pre>
           </td>
           <td class='context'>
-            <pre class='context'>#{context.first[1]}</pre>
+            <pre class='context'>#{context.first[1].to_s.encode('UTF-8')}</pre>
           </td>
         </tr>
       HTML
