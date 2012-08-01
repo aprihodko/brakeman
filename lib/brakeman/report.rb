@@ -568,7 +568,7 @@ class Brakeman::Report
             <pre class='context'>#{context.first[0]}</pre>
           </td>
           <td class='context'>
-            <pre class='context'>#{CGI.escapeHTML context.first[1].chomp}</pre>
+            <pre class='context'>#{context.first[1]}</pre>
           </td>
         </tr>
       HTML
