@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'cgi'
 require 'set'
 require 'brakeman/processors/output_processor'
